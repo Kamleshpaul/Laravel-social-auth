@@ -87,3 +87,9 @@ class LoginController extends Controller
 ],
 ```
 
+## Usage
+
+```php
+<a href="{{url('login/{provider}'}}"> Provider </a>
+```
+>Note : provider means all the deriver which you specifies in config/services.php
